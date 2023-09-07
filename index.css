@@ -1,10 +1,25 @@
 body{
     display: block;
+    padding: 40px;
+    text-align: center;
+    font-size: larger;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 [data-testid="slackDisplayImage"] {
-    max-width: 300px;
-    max-width: 200px;
-    height: auto;
+    max-width: 400px;
+    height: 300px;
+}
+
+[data-testid="slackUserName"] {
+    font-weight: bold;
+}
+
+[data-testid="githubURL"] {
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
 }
 
