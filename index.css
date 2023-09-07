@@ -1,0 +1,9 @@
+body{
+    display: block;
+}
+
+[data-testid="slackDisplayImage"] {
+    max-width: 300px;
+    height: 200px;
+}
+
