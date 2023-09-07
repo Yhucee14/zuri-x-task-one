@@ -3,19 +3,22 @@ body{
     padding: 40px;
     text-align: center;
     font-size: larger;
-    padding-top: 60px;
+    padding-top: 80px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 [data-testid="slackDisplayImage"] {
-    max-width: 400px;
-    height: 300px;
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 [data-testid="slackUserName"] {
     font-weight: bold;
 }
+
 
 [data-testid="githubURL"] {
     font-weight: bold;
