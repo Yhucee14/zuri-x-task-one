@@ -4,6 +4,7 @@ body{
 
 [data-testid="slackDisplayImage"] {
     max-width: 300px;
-    height: 200px;
+    max-width: 200px;
+    height: auto;
 }
 
