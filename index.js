@@ -8,7 +8,7 @@ function updateDateTime() {
 
     const formattedUtcTime = new Date(utcTimeMilliseconds);
 
-    /
+    
     const hours = formattedUtcTime.getUTCHours().toString().padStart(2, '0');
     const minutes = formattedUtcTime.getUTCMinutes().toString().padStart(2, '0');
     const seconds = formattedUtcTime.getUTCSeconds().toString().padStart(2, '0');
